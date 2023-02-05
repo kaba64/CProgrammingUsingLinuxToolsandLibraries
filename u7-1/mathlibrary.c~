@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+double pow(double x,double y);
+
+int main(void){
+  double a=2.5;
+  double asquare = pow(a,2);
+  printf("The square of %.2lf is %.2lf.\n",a,asquare);
+
+  return 0;
+}
